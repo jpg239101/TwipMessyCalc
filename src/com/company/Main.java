@@ -16,12 +16,12 @@ public class Main {
 
         while(nonBreakable) {
             System.out.println("Please select an operation 'add' 'subtract' 'multiply' 'divide'");
-            String operator = kb.next();
+            String operator = kb.nextLine();
 
             System.out.println("Input your first number");
-            num1 = kb.next();
+            num1 = kb.nextLine();
             System.out.println("Input your second number");
-            num2 = kb.next();
+            num2 = kb.nextLine();
 
             if (num1.contains("0") || num1.contains("1") || num1.contains("2") || num1.contains("3") || num1.contains("4") || num1.contains("5") || num1.contains("6") || num1.contains("7") || num1.contains("8") || num1.contains("9")){
                 val1 = Double.parseDouble(num1);
